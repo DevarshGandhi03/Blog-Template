@@ -1,0 +1,187 @@
+@media screen and (max-width: 961px) {
+  /* this is header section */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  .logo {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    font-size: 2.2rem;
+    align-items: center;
+  }
+  .nav-components {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 0.8rem;
+  }
+  .nav-items a {
+    margin: 7px;
+    padding: 7px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-out;
+    border-radius: 10px;
+  }
+  .navbar form input[type="text"] {
+    margin: 7px;
+    padding: 7px;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    border: 1.6px solid rgb(78, 78, 78);
+    width: 120px;
+  }
+  .navbar form input[type="text"]::placeholder {
+    font-size: 0.8rem;
+  }
+  #btn-search {
+    margin: 7px;
+    padding: 7px;
+    font-size: 0.8rem;
+    color: #24a0ed;
+    border-radius: 10px;
+    border: 1.4px solid rgb(78, 78, 78);
+    background-color: rgb(209, 248, 255);
+    transition: all 0.3s ease-in-out;
+  }
+  .contact h2 {
+    margin: auto;
+    font-size: 1.3rem;
+    color: rgb(82, 82, 82);
+  }
+  fieldset {
+    width: 1px;
+    padding: 20px;
+    margin: 10px;
+    border-color: rgb(212, 212, 212);
+    border-radius: 20px;
+  }
+  .contact input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  textarea {
+    width: 290px;
+    font-size: 0.8rem;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid rgb(218, 249, 255);
+    border-radius: 10px;
+    transition: all 0.1s ease-out;
+  }
+  label {
+    font-size: 0.8rem;
+  }
+  .contact ::placeholder {
+    font-size: 0.8rem !important;
+  }
+  .contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  /* this is footer */
+  .icons a img {
+    height: 25px;
+    margin: 10px;
+    margin-bottom: 0px !important;
+  }
+  .foot .reserved a {
+    font-size: smaller;
+  }
+  .copy {
+    font-family: "Lobster", cursive !important;
+    margin-bottom: 8px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  input[type="submit"] {
+    width: 130px;
+    font-size: 0.8rem;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 15px auto;
+    margin-bottom: 0px !important;
+    background-color: white;
+    transition: all 0.2s ease-out;
+    border: 1px solid rgb(218, 249, 255);
+    color: rgb(41, 41, 41);
+  }
+}
+@media screen and (max-width: 460px) {
+  .nav-components {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 0.7rem;
+  }
+  .nav-items a {
+    margin: 4px 10px;
+    padding: 4px 10px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    transition: all 0.1s ease-out;
+    border-radius: 10px;
+  }
+
+  .navbar form {
+    display: none;
+  }
+  /* this is the main section */
+  .contact h2 {
+    margin: auto;
+    font-size: 1.1rem;
+    color: rgb(82, 82, 82);
+  }
+  fieldset {
+    width: 1px;
+    padding: 15px;
+    margin: 5px;
+    border-color: rgb(212, 212, 212);
+    border-radius: 20px;
+  }
+  .contact input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  textarea {
+    width: 170px;
+    font-size: 0.7rem;
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid rgb(218, 249, 255);
+    border-radius: 8px;
+    transition: all 0.1s ease-out;
+  }
+  label {
+    font-size: 0.7rem;
+  }
+  .contact ::placeholder {
+    font-size: 0.7rem !important;
+  }
+  input[type="submit"] {
+    width: 120px;
+    font-size: 0.7rem;
+    padding: 7px;
+    border-radius: 11px;
+    margin: 12px auto;
+    margin-bottom: 0px !important;
+    background-color: white;
+    transition: all 0.2s ease-out;
+    border: 1px solid rgb(218, 249, 255);
+    color: rgb(41, 41, 41);
+  }
+}

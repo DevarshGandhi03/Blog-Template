@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyBlog</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="contact-responsive.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo"><p>MyBlog</p></div>
+      <div class="nav-components">
+        <ul class="nav-list">
+          <li class="nav-items"><a href="index.html">Home</a></li>
+          <li class="nav-items"><a href="contact.html">Contact Us</a></li>
+          <li class="nav-items"><a href="about.html">About</a></li>
+        </ul>
+        <form action="search.html" method="get">
+          <input
+            type="text"
+            name="search-item"
+            id="search-item"
+            placeholder="Browse"
+            name="query"
+          />
+          <button id="btn-search">Search</button>
+        </form>
+      </div>
+    </nav>
+    <main>
+      <section class="contact">
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <fieldset>
+            <form action="">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                name="Name"
+                id="int.name"
+                placeholder="Enter your name"
+              />
+              <label for="phone">Phone:</label>
+              <input
+                type="tel"
+                name="Name"
+                id="int.phone"
+                placeholder="Enter your phone no"
+              />
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="int.email"
+                placeholder="Enter your email"
+              />
+              <label for="Password">Password:</label>
+              <input
+                type="password"
+                name="Password"
+                id=""
+                placeholder="Enter your password"
+              />
+              <label for="message">Message:</label>
+              <textarea
+                name=""
+                id=""
+                cols="3"
+                rows="5"
+                placeholder="How can we help you&#63; "
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </fieldset>
+        </div>
+      </section>
+      <footer>
+        <section class="foot">
+          <div class="icons">
+            <a href="http://facebook.com"
+              ><img src="images/f_logo_RGB-Blue_58.png" alt=""
+            /></a>
+            <a href="http://twitter.com"
+              ><img src="images/Twitter_Logo_Blue-310x310.png" alt=""
+            /></a>
+            <a href="http://instagram.com"
+              ><img src="images/glyph-logo_May2016-310x310.png" alt=""
+            /></a>
+          </div>
+          <div class="reserved">
+            <a href="terms of use.html">Terms of use</a
+            ><a href="suppport.html">Support</a>
+          </div>
+          <div class="copy">&copy;MyBlog.com</div>
+        </section>
+      </footer>
+    </main>
+  </body>
+</html>
